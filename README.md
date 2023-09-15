@@ -67,4 +67,5 @@ Sau khi cài đặt 2 bước trên sẽ tiến hành chạy project ở local
    ```
   **Note**: ServerlessRestApi lấy được sau khi chạy lệnh `samlocal deploy`
 - Ví dụ:
-![example](https://files.slack.com/files-tmb/T028JVBUY4F-F05SJGB6WCC-677f76a8de/image_720.png)
+![image](https://github.com/luctq-3361/local-development-with-localstack-tutorial/assets/144312162/4ab2623a-98bd-489a-a580-568f0314b961)
+
