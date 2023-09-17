@@ -1,4 +1,4 @@
-![image](https://github.com/luctq-3361/local-development-with-localstack-tutorial/assets/144312162/a866f249-9200-45dd-ad0f-eebbf481aa0d)# Hướng dẫn run Project with LocalStack.
+# Hướng dẫn run Project with LocalStack.
 ## Prerequisites
 Cài đặt pip
   ```sh
