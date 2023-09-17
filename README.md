@@ -14,17 +14,20 @@ Cài đặt localstack giúp tạo mội trường AWS trên local
     Cài đặt theo link: https://github.com/localstack/localstack-cli/releases/download/v2.2.0/localstack-cli-2.2.0-linux-amd64-onefile.tar.gz
    sudo tar xvzf ~/Downloads/localstack-cli-2.2.0-linux-*-onefile.tar.gz -C /usr/local/bin
    ```
-
-2. Kiểm tra cài đặt
+2. Khởi động lại terminal
+   ```sh
+   bash --login
+   ```  
+3. Kiểm tra cài đặt
    ```sh
    localstack --version
    ```
-3. Config key của localstack
+4. Config key của localstack
 Đăng ký tài khoản localstack trên website: https://app.localstack.cloud/sign-in và lấy api key
    ```sh
    export  LOCALSTACK_API_KEY=<YOUR_API_KEY>
    ```
-
+   
 Tham khảo: https://docs.localstack.cloud/getting-started/installation/
 ##  Bước 2: Cài đặt samlocal 
 Cài đặt samlocal giúp tương tác với môi trường AWS localstack tương tự như sam với môi trướng AWS thật
@@ -34,8 +37,11 @@ Cài đặt samlocal giúp tương tác với môi trường AWS localstack tư�
    ```sh
     pip install aws-sam-cli-local
    ```
-
-2. Kiểm tra cài đặt
+2. Khởi động lại terminal
+   ```sh
+   bash --login
+   ```  
+3. Kiểm tra cài đặt
    ```sh
    samlocal --help
    ```
