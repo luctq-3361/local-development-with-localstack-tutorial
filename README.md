@@ -11,7 +11,8 @@ Cài đặt localstack giúp tạo mội trường AWS trên local
 ### Installation
 1. Cài đặt localstack with pip
    ```sh
-    pip install --upgrade localstack
+    Cài đặt theo link: https://github.com/localstack/localstack-cli/releases/download/v2.2.0/localstack-cli-2.2.0-linux-amd64-onefile.tar.gz
+   sudo tar xvzf ~/Downloads/localstack-cli-2.2.0-linux-*-onefile.tar.gz -C /usr/local/bin
    ```
 
 2. Kiểm tra cài đặt
