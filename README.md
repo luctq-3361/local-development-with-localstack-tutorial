@@ -1,4 +1,4 @@
-# Hướng dẫn run Project with LocalStack.
+![image](https://github.com/luctq-3361/local-development-with-localstack-tutorial/assets/144312162/a866f249-9200-45dd-ad0f-eebbf481aa0d)# Hướng dẫn run Project with LocalStack.
 ## Prerequisites
 Cài đặt pip
   ```sh
@@ -64,6 +64,8 @@ Sau khi cài đặt 2 bước trên sẽ tiến hành chạy project ở local
     ```sh
    samlocal build
    ```
+   Note: Nếu bị lỗi sau thì cài thêm package esbuild
+   ![image](https://github.com/luctq-3361/local-development-with-localstack-tutorial/assets/144312162/3e1fe8a5-4e51-42db-944b-6932d170b774)
  - Deploy code 
    ```sh
    samlocal deploy
